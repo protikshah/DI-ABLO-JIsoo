@@ -1,0 +1,33 @@
+{
+  "name": "di-ablo-jisoo",
+  "version": "1.0.0",
+  "description": "DI-ABLO JIsoo \u2014 Fast Messenger Bot by protik | Powered by fca-protik",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "messenger-bot",
+    "facebook",
+    "fca-protik",
+    "goatbot"
+  ],
+  "author": "protik",
+  "license": "MIT",
+  "dependencies": {
+    "fca-protik": "github:protikshah/fca-protik",
+    "axios": "^1.7.7",
+    "canvas": "^2.11.2",
+    "chalk": "^4.1.2",
+    "fs-extra": "^11.2.0",
+    "gradient-string": "^2.0.2",
+    "moment-timezone": "^0.5.45",
+    "mongoose": "^8.8.0",
+    "totp-generator": "^0.0.14",
+    "express": "^4.21.0"
+  }
+}

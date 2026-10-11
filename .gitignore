@@ -1,0 +1,16 @@
+node_modules/
+.fca-nx/
+cache/
+*.log
+.env
+account.txt
+account1.txt
+account2.txt
+account3.txt
+appstate.json
+.DS_Store
+scripts/cmds/cache/
+scripts/events/cache/
+database/*.db
+*.png
+!README.md

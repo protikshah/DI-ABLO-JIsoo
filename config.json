@@ -1,0 +1,74 @@
+{
+  "prefix": "zx",
+  "nickNameBot": "DI-ABLO JIsoo",
+  "language": "en",
+  "adminBot": ["100073798820230"],
+  "devUsers": ["100073798820230"],
+  "premiumUsers": ["100073798820230"],
+  "adminOnly": {
+    "enable": false,
+    "ignoreCommand": []
+  },
+  "whiteListMode": {
+    "enable": false,
+    "whiteListIds": []
+  },
+  "whiteListModeThread": {
+    "enable": false,
+    "whiteListThreadIds": []
+  },
+  "database": {
+    "type": "mongodb",
+    "uri": "",
+    "notes": "Set MongoDB URI here OR use env MONGODB_URI (Atlas recommended for Railway/Render)"
+  },
+  "facebookAccount": {
+    "email": "",
+    "password": "",
+    "2FASecret": "",
+    "i_user": "",
+    "proxy": null,
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+  },
+  "optionsFca": {
+    "online": true,
+    "selfListen": true,
+    "listenEvents": true,
+    "updatePresence": false,
+    "autoMarkDelivery": false,
+    "autoMarkRead": true,
+    "autoReconnect": true,
+    "forceLogin": true
+  },
+  "restartListenMqtt": {
+    "enable": true,
+    "timeRestart": 3600000,
+    "logNoti": true
+  },
+  "serverUptime": {
+    "enable": true,
+    "port": 3000,
+    "socket": { "enable": false }
+  },
+  "dashBoard": {
+    "enable": false,
+    "port": 3001
+  },
+  "autoRestartWhenListenMqttError": false,
+  "autoReloginWhenChangeAccount": true,
+  "antiInbox": false,
+  "logEvents": {
+    "disableAll": false,
+    "message": false,
+    "message_reply": false,
+    "message_unsend": false,
+    "message_reaction": false,
+    "typ": false,
+    "presence": false,
+    "log:subscribe": true,
+    "log:unsubscribe": true
+  },
+  "commandJunk": {
+    "enable": false
+  }
+}
